@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cfg.chaakri.chaakri.SakhiRegister">
+
+
+    <EditText
+        android:id="@+id/cnamesakhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/caddsakhi"
+        android:hint="Name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"/>
+
+    <EditText
+        android:id="@+id/caddsakhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Address"
+        android:layout_above="@+id/cusernamesakhi"/>
+
+    <EditText
+        android:id="@+id/cusernamesakhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_above="@+id/cpasssakhi"
+        android:hint="Mobile Number" />
+
+
+    <EditText
+        android:id="@+id/cpasssakhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/buttonSakhiRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cpasssakhi"
+        android:layout_centerHorizontal="true"
+        android:text="Register"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cfg.chaakri.chaakri.NGOOrder">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editFlavNGO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editQuanNGO"
+            android:ems="10"
+            android:hint="Flavour Number"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editQuanNGO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Quantity"
+            android:inputType="number" />
+
+
+        <Button
+            android:id="@+id/buttonDoneNGO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editQuanNGO"
+            android:layout_centerHorizontal="true"
+            android:text="Place Order" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
